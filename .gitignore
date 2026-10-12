@@ -1,0 +1,15 @@
+# Ignore Windows temporary metadata
+*:Zone.Identifier
+
+# Ignore Python caches & checkpoints
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Ignore SQLite databases (if you don't want to push raw DBs)
+*.db
+*.sqlite
+
+# Ignore OS junk files
+.DS_Store
+Thumbs.db
